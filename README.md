@@ -8,6 +8,3 @@
 * model: AI model(.pt file, and so on...)
 * scripts: inference code 
 * train: training code
-
-
-* 
