@@ -42,3 +42,6 @@ ultralytics==8.2.97
 ultralytics-thop==2.0.6
 urllib3==2.2.3
 zipp==3.20.2
+streamlit 
+streamlit-webrtc 
+av
