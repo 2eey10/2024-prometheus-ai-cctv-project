@@ -2,9 +2,13 @@ import streamlit as st
 from streamlit_webrtc import webrtc_streamer
 import av
 
-st.title("😄 5팀의 멀티모달 영상분석🚀")
 """
 streamlit run run_gui.py
+"""
+
+st.title("😄 5팀의 멀티모달 영상분석🚀")
+"""
+실시간 영상 분석 추론을 시작합니다.
 """
 def video_frame_callback(frame):
     img = frame.to_ndarray(format="bgr24")
