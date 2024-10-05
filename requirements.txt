@@ -45,3 +45,4 @@ zipp==3.20.2
 streamlit 
 streamlit-webrtc 
 av
+gradio
