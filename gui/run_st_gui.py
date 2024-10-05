@@ -4,7 +4,7 @@ import av
 
 st.title("😄 5팀의 멀티모달 영상분석🚀")
 """
-streamlit run run_gui.py
+streamlit run run_st_gui.py
 """
 def video_frame_callback(frame):
     img = frame.to_ndarray(format="bgr24")
